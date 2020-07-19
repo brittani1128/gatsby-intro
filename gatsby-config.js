@@ -4,10 +4,10 @@ module.exports = {
     description: 'site built with Front End Masters',
   },
   plugins: [
-    'gatsby-plugin-emotion',
-    'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-emotion',
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-mdx',
       options: {

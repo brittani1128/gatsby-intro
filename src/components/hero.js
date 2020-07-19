@@ -8,11 +8,7 @@ const ImageBackground = styled(BackgroundImage)`
   background-position: top 50% center;
   background-size: cover;
   height: 50vh;
-
-  /* override the default margin for sibling elements  */
-  + * {
-    margin-top: 0;
-  }
+  margin-top: 0;
 `;
 
 const TextBox = styled('div')`
@@ -23,10 +19,13 @@ const TextBox = styled('div')`
   justify-content: flex-end;
   padding: 0 calc((100vw - 960px) / 2) 2rem;
   width: 100%;
+  margin-top: 0;
+
   h1 {
     text-shadow: 1px 1px 3px #eeddff66;
     font-size: 2.25rem;
   }
+
   p,
   a {
     color: #222;
